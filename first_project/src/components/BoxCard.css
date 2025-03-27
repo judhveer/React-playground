@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 600px;
+    text-align:  center;
+    margin: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.success{
+    background-color: rgb(129, 199, 129);
+}
+
+.warning{
+    background-color: rgb(229, 194, 129);
+}
+
+.hidden{
+    display: none;
+}
+
+.trigger{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid rgb(185, 185, 185);
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(35, 35, 100);
+    color: white;
+}
