@@ -32,7 +32,7 @@ export default function Home({handleAddToCart, cartItems}) {
                 onClick={() => handleAddToCart(product)}
                 disabled={isProductInCart(product.id)}
                 >
-                  {isProductInCart(product.id) ? (<><i class="bi bi-check"></i>
+                  {isProductInCart(product.id) ? (<><i className="bi bi-check"></i>
                   <span>Added to Cart</span> </>) : "Add to Cart"}
                 </button>
               </div>

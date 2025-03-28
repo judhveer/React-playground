@@ -7,7 +7,7 @@ export default function Cart({cartItems, handleRemoveFromCart}) {
             <h1>Cart Items: {cartItems.length}</h1>
             {cartItems.length === 0 ? <p>No items in the cart!</p> : (
                 cartItems.map((item) => (
-                    <div className='cartCard'>
+                    <div key={item.id} className='cartCard'>
                         <img src={item.image} alt={item.name} />
                         <p className='productName'>{item.name}</p>
                         <p className='productPrice'>{item.price}</p>
